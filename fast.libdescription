@@ -1,0 +1,14 @@
+fast,lib is timing library file.
+used for the infudtrial applications,the use of timing measurment.
+it is generally timing module file.
+which contains cell delay,transmission setut and hold time.
+also it contains the number of cells, Area of the cell, Voltage, Current, leakage power, capacitive load
+the function are related to generated pins, on the array using a delay templetes.
+the procedure will follows in all the input terminals with delay templetes.
+templete:list(tuple) parameter used to generate the data.
+ASCII representation of the Timing, Power and Area associated with the standard cells.
+characterization of cells under different PVT conditions results in the timing library.
+the timing and power parameters are obtained by simulating the cells under a variety of. 
+conditions and the data is represented in the .lib format.
+This file have applied voltage(maximum voltage),leakage power, current rating , rise time , And fall time of the RTL file .
+The fast.lib file can reduce time for verification design engineers for verification and physical design engineers can optimize in less time.
